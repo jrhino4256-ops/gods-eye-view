@@ -153,6 +153,31 @@ export const DATA_CREDITS = [
       '<a href="https://lpdaac.usgs.gov/products/hlss30v002/" target="_blank" rel="noopener">HLS product page</a>',
   },
   {
+    key: 'gdacs',
+    html:
+      'Disaster alerts: ' +
+      '<a href="https://www.gdacs.org" target="_blank" rel="noopener">GDACS</a>, ' +
+      'a cooperation framework of the United Nations and the European Commission',
+  },
+  {
+    key: 'nasa-eonet',
+    html:
+      'Natural events: ' +
+      '<a href="https://eonet.gsfc.nasa.gov" target="_blank" rel="noopener">NASA Earth Observatory Natural Event Tracker (EONET)</a>',
+  },
+  {
+    key: 'nws-alerts',
+    html:
+      'US weather alerts: ' +
+      '<a href="https://www.weather.gov" target="_blank" rel="noopener">NOAA National Weather Service</a>',
+  },
+  {
+    key: 'swpc-aurora',
+    html:
+      'Aurora forecast: ' +
+      '<a href="https://www.swpc.noaa.gov/products/aurora-30-minute-forecast" target="_blank" rel="noopener">NOAA Space Weather Prediction Center (OVATION)</a>',
+  },
+  {
     key: 'wfigs',
     html:
       'Wildfire perimeters: ' +

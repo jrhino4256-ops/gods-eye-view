@@ -1,5 +1,15 @@
 # Changelog
 
+- Four keyless hazard layers, fetched directly by the browser: Disaster Alerts
+  (GDACS earthquakes, cyclones, floods, volcanoes, droughts and wildfires by
+  alert level), Natural Events (NASA EONET categories no other layer covers),
+  US Weather Alerts (NWS warning polygons) and Aurora Forecast (NOAA SWPC
+  OVATION). Each marker opens a card with a link to its source; all four are
+  in share links (tokens 3–6), the layer panel and voice.
+
+- Render deployment: a Dockerfile and `render.yaml` publish the keyless app as a
+  website (see docs/HOSTING.md).
+
 - Treat explicitly current, complete empty vessel coverage as a successful update,
   clearing obsolete contacts while retaining stale or incomplete snapshots.
 
