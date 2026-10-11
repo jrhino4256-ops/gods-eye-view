@@ -1,0 +1,13 @@
+# Render Blueprint: New > Blueprint in the Render dashboard, pick this repo.
+services:
+  - type: web
+    name: gods-eye-view
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /
+    envVars:
+      # Extra hostnames (e.g. a custom domain), comma-separated. The Render
+      # hostname is added automatically by the Dockerfile.
+      - key: GEV_ALLOWED_HOSTS
+        value: ''

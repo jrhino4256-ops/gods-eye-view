@@ -94,6 +94,9 @@ Esri satellite imagery and keyless terrain. OSM is the fallback if Esri is
 unreachable. Flights, military traffic, satellites, earthquakes, public
 cameras, radio, and launches are available without keys.
 
+🌐 **Host it as a website:** deploy the keyless app to Render in a few clicks with
+the included `render.yaml` — see [docs/HOSTING.md](docs/HOSTING.md).
+
 For photorealistic 3D, add a **Cesium ion token** for eligible personal,
 non-commercial use, or a **Google Maps key** for the direct, metered route and
 Google place search. Provider terms and quotas apply. Add keys through the
