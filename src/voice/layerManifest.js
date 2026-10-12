@@ -207,6 +207,73 @@ const layers = [
     },
   },
   {
+    id: 'gdacs-alerts',
+    aliases: ['disaster alerts', 'gdacs', 'disasters', 'global alerts'],
+    context: false,
+    query: {
+      fields: {
+        type: ['t'],
+        alertLevel: ['t'],
+        name: ['t'],
+        country: ['t'],
+        severity: ['t'],
+        startMs: ['ms'],
+      },
+      timeField: 'startMs',
+    },
+  },
+  {
+    id: 'eonet-events',
+    aliases: ['natural events', 'eonet', 'volcanoes', 'icebergs'],
+    context: false,
+    query: {
+      fields: {
+        category: ['t'],
+        title: ['t'],
+        magnitude: ['t'],
+        observedMs: ['ms'],
+      },
+      timeField: 'observedMs',
+    },
+  },
+  {
+    id: 'weather-alerts',
+    aliases: [
+      'weather alerts',
+      'weather warnings',
+      'severe weather',
+      'nws alerts',
+    ],
+    context: false,
+    query: {
+      fields: {
+        event: ['t'],
+        severity: ['t'],
+        urgency: ['t'],
+        area: ['t'],
+        onsetMs: ['ms'],
+        endsMs: ['ms'],
+      },
+      timeField: 'onsetMs',
+    },
+  },
+  {
+    id: 'aurora',
+    aliases: [
+      'aurora',
+      'northern lights',
+      'southern lights',
+      'aurora forecast',
+    ],
+    context: false,
+    query: {
+      fields: {
+        probability: ['n', '%'],
+        hemisphere: ['t'],
+      },
+    },
+  },
+  {
     id: 'weather-radar',
     aliases: ['weather radar', 'radar', 'rain', 'weather'],
     context: false,

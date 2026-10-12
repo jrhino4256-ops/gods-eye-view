@@ -2023,6 +2023,15 @@
       "src/layers/perimeters/records.js",
       "src/layers/perimeters/cards.js",
       "src/layers/perimeters/inciweb.js",
+      "src/app/layers/hazards.js",
+      "src/layers/hazards/index.js",
+      "src/layers/hazards/controller.js",
+      "src/layers/hazards/common.js",
+      "src/layers/hazards/gdacs.js",
+      "src/layers/hazards/eonet.js",
+      "src/layers/hazards/nwsAlerts.js",
+      "src/layers/hazards/aurora.js",
+      "src/layers/hazards/source.js",
       "src/layers/cctv/sourcePolicy.js",
       "src/sources/reference.js",
       "src/search/nominatim.js",
@@ -2602,6 +2611,15 @@
       "src/layers/perimeters/records.js",
       "src/layers/perimeters/cards.js",
       "src/layers/perimeters/inciweb.js",
+      "src/app/layers/hazards.js",
+      "src/layers/hazards/index.js",
+      "src/layers/hazards/controller.js",
+      "src/layers/hazards/common.js",
+      "src/layers/hazards/gdacs.js",
+      "src/layers/hazards/eonet.js",
+      "src/layers/hazards/nwsAlerts.js",
+      "src/layers/hazards/aurora.js",
+      "src/layers/hazards/source.js",
       "src/layers/cctv/sourcePolicy.js",
       "src/search/nominatim.js",
       "src/nominatimGeocode.js",
@@ -3097,6 +3115,12 @@
       "src/sources/httpBody.js",
       "src/layers/perimeters/source.js",
       "src/layers/perimeters/records.js",
+      "src/layers/hazards/common.js",
+      "src/layers/hazards/gdacs.js",
+      "src/layers/hazards/eonet.js",
+      "src/layers/hazards/nwsAlerts.js",
+      "src/layers/hazards/aurora.js",
+      "src/layers/hazards/source.js",
       "src/layers/submarineCables/bundledSource.js"
     ],
     "external": []
@@ -3314,6 +3338,32 @@
       "src/layers/perimeters/records.js",
       "src/sources/httpBody.js",
       "src/layers/perimeters/source.js"
+    ],
+    "external": []
+  },
+  "hazards": {
+    "exports": ["./layers/hazards"],
+    "modules": [
+      "src/layers/hazards/index.js",
+      "src/layers/hazards/controller.js",
+      "src/layers/hazards/common.js",
+      "src/layers/hazards/gdacs.js",
+      "src/layers/hazards/eonet.js",
+      "src/layers/hazards/nwsAlerts.js",
+      "src/layers/hazards/aurora.js",
+      "src/layers/hazards/source.js"
+    ],
+    "external": ["cesium"]
+  },
+  "hazards-source": {
+    "exports": ["./layers/hazards/source"],
+    "modules": [
+      "src/layers/hazards/common.js",
+      "src/layers/hazards/gdacs.js",
+      "src/layers/hazards/eonet.js",
+      "src/layers/hazards/nwsAlerts.js",
+      "src/layers/hazards/aurora.js",
+      "src/layers/hazards/source.js"
     ],
     "external": []
   },

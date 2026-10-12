@@ -577,6 +577,7 @@ export const LAYER_STATE_REGISTRY = Object.freeze([
     token: 'p',
     disposition: 'enabled-only',
   }),
+  Object.freeze({ id: 'aurora', token: '6', disposition: 'enabled-only' }),
   Object.freeze({
     id: 'bhote-koshi-2026',
     token: 'h',
@@ -597,6 +598,11 @@ export const LAYER_STATE_REGISTRY = Object.freeze([
   Object.freeze({ id: 'directions', token: 'n', disposition: 'enabled-only' }),
   Object.freeze({ id: 'earthquakes', token: 'e', disposition: 'enabled-only' }),
   Object.freeze({
+    id: 'eonet-events',
+    token: '4',
+    disposition: 'enabled-only',
+  }),
+  Object.freeze({
     id: 'fire-perimeters',
     token: '2',
     disposition: 'enabled-only',
@@ -606,6 +612,11 @@ export const LAYER_STATE_REGISTRY = Object.freeze([
     token: 'f',
     disposition: 'enabled+options',
     optionOwner: 'flights',
+  }),
+  Object.freeze({
+    id: 'gdacs-alerts',
+    token: '3',
+    disposition: 'enabled-only',
   }),
   Object.freeze({ id: 'local-dams', token: 'q', disposition: 'enabled-only' }),
   Object.freeze({
@@ -671,6 +682,11 @@ export const LAYER_STATE_REGISTRY = Object.freeze([
     optionOwner: 'traffic',
   }),
   Object.freeze({ id: 'transit', token: 'j', disposition: 'enabled-only' }),
+  Object.freeze({
+    id: 'weather-alerts',
+    token: '5',
+    disposition: 'enabled-only',
+  }),
   Object.freeze({
     id: 'weather-cyclones',
     token: 'y',

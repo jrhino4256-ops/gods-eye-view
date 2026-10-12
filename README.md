@@ -94,6 +94,9 @@ Esri satellite imagery and keyless terrain. OSM is the fallback if Esri is
 unreachable. Flights, military traffic, satellites, earthquakes, public
 cameras, radio, and launches are available without keys.
 
+🌐 **Host it as a website:** deploy the keyless app to Render in a few clicks with
+the included `render.yaml` — see [docs/HOSTING.md](docs/HOSTING.md).
+
 For photorealistic 3D, add a **Cesium ion token** for eligible personal,
 non-commercial use, or a **Google Maps key** for the direct, metered route and
 Google place search. Provider terms and quotas apply. Add keys through the
@@ -329,6 +332,8 @@ In the app, **Data Layers** groups them as Movement, Cameras, Infrastructure, Ev
 ![A reconstructed Falcon 9 ascent climbing and curving into its projected orbit](docs/media/08-falcon9-replay.gif)
 
 _The Space Missions layer replaying a Falcon 9 ascent — labeled `RECONSTRUCTED ESTIMATE`, scrubbable 0.25×–4×._
+
+**Hazard feeds (keyless):** GDACS disaster alerts · NASA EONET natural events · US NWS weather alerts · NOAA aurora forecast.
 
 **Also on the globe:** neighborhood overlays · an optional cockpit WX cloud effect. **Bundled static infrastructure:** Datacenters (4,351), Dams (704), and Submarine Cables (712).
 
